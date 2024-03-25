@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/45a0af6ce5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="navigation  container">
+      <div class="logo-brand">
+        <div class="logo-img">
+          <img src="./public/images/brand-logo.jpg" alt="">
+        </div>
+        <div class="logo-name">
+          <h2>Rao Store</h2>
+        </div>
+      </div>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="blog.html"> Blogs</a></li>
+        <li><a href="index.html#contact">Contact Us</a></li>
+        <li class="card-icon"><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+      </ul>
+
+
+      <div class="icon">
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+  <div class="order-section" id="order">
+    <form action="https://formspree.io/f/xvoebbrr"  method="POST">
+     <div>
+       <label for="email">Enter Email</label><br>
+       <input type="email" placeholder="Enter your email" id="email" name="email">
+     </div>
+     <div>
+       <label for="phone">Enter Phone Number</label><br>
+       <input type="number" placeholder="Enter your number" id="phone" name="phone number">
+     </div>
+     <div class="quantity">
+       <label for="quantity">Enter Quantity</label><br>
+       <input type="number"  id="quantity" name="quantity">
+     </div>
+       <div class="order-btn">
+         <button >Submit</button>
+       </div>
+    </form>
+    <button onclick="cancel()" class="cancel">cancel</button>
+  </div>
+<div class="main card-sec">
+    
+        <div class="card-show">
+
+        </div>
+    
+    
+</div>
+ 
+        
+
+  
+ 
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script> 
+</body>
